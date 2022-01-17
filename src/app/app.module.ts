@@ -24,6 +24,8 @@ import {MatTableModule} from '@angular/material/table';
 import { MatListModule } from '@angular/material/list';
 import { LogoComponent } from './components/logo/logo.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { ListProductComponent } from './components/list-product/list-product.component';
+import { DetailProductComponent } from './components/detail-product/detail-product.component';
 
 
 @NgModule({
@@ -36,7 +38,9 @@ import {MatExpansionModule} from '@angular/material/expansion';
     LoginComponent,
     HomeComponent,
     NavComponent,
-    LogoComponent
+    LogoComponent,
+    ListProductComponent,
+    DetailProductComponent
   ],
   imports: [
     BrowserModule,

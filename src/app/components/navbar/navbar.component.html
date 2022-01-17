@@ -1,29 +1,24 @@
-
-    <mat-toolbar color="primary" class="mat-elevation-z8">
-        <button routerLink="home" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+<mat-toolbar color="primary" class="mat-elevation-z8">
+    <button routerLink="home" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
             <mat-icon>eco</mat-icon>
         </button>
-        <span>Annuaire Pharmacie</span>
+    <span>Annuaire Pharmacie</span>
 
-        <span class="example-spacer"></span>
-        <a mat-button routerLink="service">Services</a>
-        <button routerLink="login" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <span class="example-spacer"></span>
+    <a mat-button routerLink="service">Services</a>
+    <button routerLink="login" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
             <mat-icon>favorite</mat-icon>
         </button>
-        <button routerLink="user" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <button routerLink="user" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
             <mat-icon>share</mat-icon>
         </button>
-        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
             <mat-icon>logout</mat-icon>
         </button>
-        <a mat-button color="accent">test</a>
-        <a mat-raised-button color="accent">Sign up</a>
-    </mat-toolbar>
-    <div class="container-fluid" style="padding: 10px;">
-        <app-home></app-home>
-    <div class="alert alert-primary" role="alert">
-        A simple primary alert—check it out!
-      </div>
-    </div>
-    <app-footer></app-footer>
-    
+    <a mat-button color="accent">test</a>
+    <a mat-raised-button color="accent">Sign up</a>
+</mat-toolbar>
+<div class="container-fluid" style="padding: 10px;">
+    <app-detail-product></app-detail-product>
+</div>
+<app-footer></app-footer>
