@@ -26,6 +26,8 @@ import { LogoComponent } from './components/logo/logo.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { ListProductComponent } from './components/list-product/list-product.component';
 import { DetailProductComponent } from './components/detail-product/detail-product.component';
+import { AddProductComponent } from './components/add-product/add-product.component';
+import { AdminModule } from './admin/admin.module';
 
 
 @NgModule({
@@ -40,7 +42,8 @@ import { DetailProductComponent } from './components/detail-product/detail-produ
     NavComponent,
     LogoComponent,
     ListProductComponent,
-    DetailProductComponent
+    DetailProductComponent,
+    AddProductComponent
   ],
   imports: [
     BrowserModule,
@@ -57,7 +60,8 @@ import { DetailProductComponent } from './components/detail-product/detail-produ
     BrowserAnimationsModule,
     LayoutModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    AdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]
